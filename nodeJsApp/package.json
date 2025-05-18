@@ -1,0 +1,35 @@
+{
+  "name": "node-js-app",
+  "version": "0.0.0",
+  "description": "nodeJsApp",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "eslint": "^8.57.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.7.2"
+  },
+  "eslintConfig": {},
+  "dependencies": {
+    "@types/mysql": "^2.15.26",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "react-router-dom": "^7.1.1",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  },
+  "resolutions": {
+    "@types/react": "17.0.14",
+    "@types/react-dom": "17.0.14"
+  },
+  "scripts": {
+    "build": "webpack-cli --config webpack-config.js"
+  }
+}
